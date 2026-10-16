@@ -34,6 +34,7 @@ document.addEventListener('click', (e) => {
   const link = e.target.closest('a[href^="#"]');
   if (!link) return;
   const id = link.getAttribute('href');
+  if (id === '#') { e.preventDefault(); return; } // placeholder links (e.g. Services opens the mega menu on hover)
   const target = id.length > 1 ? document.querySelector(id) : null;
   if (!target) return;
   e.preventDefault();
