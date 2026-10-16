@@ -1,0 +1,47 @@
+/* Design tokens — single source of truth for colors, type, radii and shadows */
+:root {
+  /* Brand */
+  --color-brand: #d3ff33;
+  --color-brand-ink: #1b1b2f;   /* text/icons placed on brand fills */
+  --color-brand-text: #5c7500;  /* brand-colored text on light backgrounds */
+  --color-brand-light: #eaff99;
+  --color-cta: #fbab1a;
+  --color-cta-shadow: rgba(251, 171, 26, 0.6);
+
+  /* Text */
+  --color-ink: #1b1b2f;
+  --color-muted: #9ca3af;
+
+  /* Surfaces */
+  --color-page: #ffffff;
+  --color-surface: #fafafa;
+  --color-chrome: #555555;
+  --color-dot: #e6e6ee;
+  --color-tag: rgba(229, 231, 235, 0.8);
+
+  /* Lime card (Audience Analysis) */
+  --color-lime: #d3ff33;
+  --color-lime-50: #fcfff0;
+  --color-lime-100: #f8ffdb;
+  --color-lime-200: #f3ffc2;
+  --color-lime-border: #eaf5b8;
+  --color-lime-glow: rgba(211, 255, 51, 0.22);
+
+  /* Chart bars */
+  --color-bar-light: #f1f5d4;
+  --color-bar-dark: #e0ec9a;
+  --color-bar-series-1: #a3c900;
+  --color-bar-series-2: #38bdf8;
+
+  /* Status */
+  --color-positive: #16a34a;
+  --color-positive-bg: #f0fdf4;
+  --color-alert: #f43f5e;
+
+  /* Type */
+  --font-sans: 'Outfit', sans-serif;
+
+  /* Shadows */
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.15);
+  --shadow-cta: 0 6px 16px -4px var(--color-cta-shadow);
+}
