@@ -41,6 +41,13 @@
   /* Type */
   --font-sans: 'Outfit', sans-serif;
 
+  /* Cards (one system) */
+  --radius-card: 16px;   /* content, dark and mock cards */
+  --radius-tile: 12px;   /* small tiles inside cards */
+  --radius-media: 20px;  /* photos */
+  --card-border: 1px solid #eef0f4;
+  --shadow-hover: 0 16px 36px -16px rgba(27, 27, 47, 0.2);
+
   /* Shadows */
   --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.15);
   --shadow-cta: 0 6px 16px -4px var(--color-cta-shadow);
